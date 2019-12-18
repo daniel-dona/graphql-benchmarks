@@ -54,7 +54,7 @@ with open(args.ids_file) as fp:
 base_path = "querys"
 
 
-
+csv = ""
 
 
 for q in ids:
@@ -72,22 +72,20 @@ for q in ids:
 			crap = (subprocess.check_output(
 				["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf],
 				stderr=subprocess.STDOUT))
-				
 			
-
 			x = re.search(r"\s(\d+)\sms.", str(crap))
 			
-			
+			ms = x.group(1).split()[0]
 
-			print(x.group(1).split()[0])
-
+			csv += str(e)+","+str(q)+","+str(v_id)+","+str(ms)+"\n"
 			
+			print()
+
+
+text_file = open(args.output_timings, "w")
+text_file.write(csv)
+text_file.close()			
 		
-# Descargar directorios con consultas
-# Mapear datasets a puertos
-# Ejecutar consultas sparql
-# Evaluar salida de morph
-# Sacar datos para tiempos	
 			
 
 
