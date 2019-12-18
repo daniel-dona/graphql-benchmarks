@@ -71,17 +71,19 @@ for q in ids:
 
 			conf = gen_config(query_path,get_port(e))
 			
-			crap = (subprocess.check_output(
-				["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf],
-				stderr=subprocess.STDOUT))
+			for i in range(n_runs):
 			
-			x = re.search(r"\s(\d+)\sms.", str(crap))
-			
-			ms = x.group(1).split()[0]
-			
-			print(".", end="", flush=True)
+				crap = (subprocess.check_output(
+					["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf],
+					stderr=subprocess.STDOUT))
+				
+				x = re.search(r"\s(\d+)\sms.", str(crap))
+				
+				ms = x.group(1).split()[0]
+				
+				print(".", end="", flush=True)
 
-			csv += str(e)+","+str(q)+","+str(v_id)+","+str(ms)+"\n"
+				csv += str(e)+","+str(q)+","+str(v_id)+","+str(ms)+"\n"
 			
 		print("|", end="", flush=True)
 		
