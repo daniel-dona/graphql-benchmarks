@@ -71,8 +71,7 @@ for q in ids:
 			
 			print (subprocess.check_output(
 				["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf],
-				stderr=subprocess.STDOUT,
-				shell=True))
+				stderr=subprocess.STDOUT))
 
 			print(conf)
 
