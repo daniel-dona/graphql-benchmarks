@@ -59,15 +59,17 @@ csv = ""
 
 for q in ids:
 	
+	print("Running query "+str(q)+": ")
+	
 	for e in ids[q]:
+		
+		print(" > "+str(e)+": [", end="")
 		
 		for v_id in ids[q][e]:
 			
 			query_path = base_path+"/"+str(e)+"/"+str(q)+"/"+str(v_id)+".rq"
 
 			conf = gen_config(query_path,get_port(e))
-			
-			
 			
 			crap = (subprocess.check_output(
 				["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf],
@@ -76,10 +78,14 @@ for q in ids:
 			x = re.search(r"\s(\d+)\sms.", str(crap))
 			
 			ms = x.group(1).split()[0]
+			
+			print(".", end="", flush=True)
 
 			csv += str(e)+","+str(q)+","+str(v_id)+","+str(ms)+"\n"
 			
-			print()
+		print("|", end="", flush=True)
+		
+		
 
 
 text_file = open(args.output_timings, "w")
