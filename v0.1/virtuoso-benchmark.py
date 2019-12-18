@@ -11,7 +11,7 @@ parser.add_argument("-d", "--debug_querys", required=False, help="Output file wi
 args = parser.parse_args()
 
 def execute_query(query_path, dataset):
-	sparql = SPARQLWrapper("http://127.0.0.1/sparql")
+	sparql = SPARQLWrapper("http://127.0.0.1:8890/sparql")
 	
 	f = open(query_path, "r")
 	query = f.read()
@@ -19,6 +19,8 @@ def execute_query(query_path, dataset):
 	sparql.addDefaultGraph("http://"+dataset.lower()+".lingbm.morphgraphql.oeg-upm.net/")
 	sparql.setQuery(query)
 	sparql.setReturnFormat(JSON)
+
+	#print(query)
 	
 	s = time.time()
 	

@@ -1,11 +1,11 @@
 mappingdocument.file.path=LinGBM.r2rml.ttl
-	query.file.path=querys/1K/q4/2903.rq
-	output.file.path=/tmp/tmphnckyiiu
+	query.file.path=querys/8K/q5/2519.rq
+	output.file.path=/tmp/tmp_gc_2iun
 
 	no_of_database=1
 	database.name[0]=benchmark
 	database.driver[0]=com.mysql.cj.jdbc.Driver
-	database.url[0]=jdbc:mysql://127.0.0.1:3306/benchmark?allowPublicKeyRetrieval=true&useSSL=false
+	database.url[0]=jdbc:mysql://127.0.0.1:3309/benchmark?allowPublicKeyRetrieval=true&useSSL=false
 	database.user[0]=testing
 	database.pwd[0]=1234
 	database.type[0]=mysql
