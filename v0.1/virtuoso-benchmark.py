@@ -53,18 +53,15 @@ for q in ids:
 
 			for i in range(n_runs):
 				
-				if e == "1K":
 				
-					ms = execute_query(query_path, e)
+				
+				ms = execute_query(query_path, e)
 			
-					print(".", end="", flush=True)
+				print(".", end="", flush=True)
 
-					csv += str(e)+","+str(q)+","+str(v_id)+","+str(ms)+"\n"
+				csv += str(e)+","+str(q)+","+str(v_id)+","+str(ms)+"\n"
 					
-				else:
-					
-					print("^", end="", flush=True)
-			
+
 			print("|", end="", flush=True)
 			
 		print("]")
