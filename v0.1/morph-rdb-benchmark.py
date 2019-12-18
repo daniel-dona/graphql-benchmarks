@@ -13,9 +13,9 @@ args = parser.parse_args()
 
 def gen_config(query,port):
 	
-	mapping = "/LinGBM.r2rml.ttl"
+	mapping = "LinGBM.r2rml.ttl"
 	
-	run_file = open("./tmp/morph.props", "w")
+	run_file = open("tmp/morph.props", "w")
 	
 	name = run_file.name
 	
