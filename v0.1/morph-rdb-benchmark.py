@@ -33,7 +33,7 @@ def gen_config(query,port):
 	database.pwd[0]=1234
 	database.type[0]=mysql'''
 	
-	run_file.write(props)
+	run_file.write(bytes(props, 'utf-8'))
 	run_file.close()
 	
 	return name
