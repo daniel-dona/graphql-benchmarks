@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from graphqlclient import GraphQLClient
 import time
 import json
