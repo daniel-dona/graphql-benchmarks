@@ -2,7 +2,7 @@
 import argparse
 import json
 import time
-from SPARQLWrapper import SPARQLWrapper
+from SPARQLWrapper import SPARQLWrapper,JSON
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--ids_file", required=True, help="Input file with JSON encoded IDs")
@@ -18,6 +18,7 @@ def execute_query(query_path, dataset):
 
 	sparql.addDefaultGraph("http://"+dataset+".lingbm.morphgraphql.oeg-upm.net/")
 	sparql.setQuery(query)
+	sparql.setReturnFormat(JSON)
 	
 	s = time.time()
 	
