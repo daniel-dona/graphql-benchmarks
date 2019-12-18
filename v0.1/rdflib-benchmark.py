@@ -38,6 +38,7 @@ with open(args.ids_file) as fp:
 
 base_path = "querys"
 
+n_runs = 5
 
 csv = ""
 
