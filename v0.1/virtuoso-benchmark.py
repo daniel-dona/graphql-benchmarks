@@ -11,16 +11,17 @@ parser.add_argument("-d", "--debug_querys", required=False, help="Output file wi
 args = parser.parse_args()
 
 def execute_query(query_path, dataset):
-	sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+	sparql = SPARQLWrapper("http://127.0.0.1/sparql")
 	
 	f = open(query_path, "r")
 	query = f.read()
 
+	sparql.addDefaultGraph("http://"+dataset+".lingbm.morphgraphql.oeg-upm.net/")
 	sparql.setQuery(query)
 	
 	s = time.time()
 	
-	sparql.query()
+	print(sparql.query())
 
 	delta = time.time() - s
 
