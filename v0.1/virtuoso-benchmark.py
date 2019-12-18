@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import json
+import time
 from SPARQLWrapper import SPARQLWrapper
 
 parser = argparse.ArgumentParser()
