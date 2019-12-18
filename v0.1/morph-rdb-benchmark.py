@@ -2,7 +2,7 @@
 import argparse
 import json
 import tempfile
-
+import re
 import subprocess
 
 parser = argparse.ArgumentParser()
@@ -69,11 +69,17 @@ for q in ids:
 			
 			
 			
-			print (subprocess.check_output(
+			crap = (subprocess.check_output(
 				["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf],
 				stderr=subprocess.STDOUT))
+				
+			regex = r"\s(\d+)\sms."
 
-			print(conf)
+			x = re.search(r"\bS\w+", str)
+			
+			
+
+			print(x.group())
 
 			
 		
