@@ -3,6 +3,8 @@ import argparse
 import json
 import tempfile
 
+import subprocess
+
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--ids_file", required=True, help="Input file with JSON encoded IDs")
 parser.add_argument("-o", "--output_timings", required=True, help="Output file with CSV encoded benchmark results")
@@ -61,12 +63,15 @@ for q in ids:
 		for v_id in ids[q][e]:
 			
 			query_path = base_path+"/"+str(e)+"/"+str(q)+"/"+str(v_id)+".rq"
-			
-			
-			
+
 			conf = gen_config(query_path,get_port(e))
 			
+			subprocess.call(["java", "-cp", ".:morph-rdb.jar:lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf])
+
+			
 			print(conf)
+			
+			quit()
 		
 # Descargar directorios con consultas
 # Mapear datasets a puertos
