@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import json
-import tempfile
-import re
-import subprocess
+import rdflib
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--ids_file", required=True, help="Input file with JSON encoded IDs")
