@@ -62,11 +62,11 @@ for q in ids:
 			
 			query_path = base_path+"/"+str(e)+"/"+str(q)+"/"+str(v_id)+".rq"
 			
-			
-			
 			conf = gen_config(query_path,get_port(e))
 			
 			print(conf)
+
+			quit()
 		
 # Descargar directorios con consultas
 # Mapear datasets a puertos
