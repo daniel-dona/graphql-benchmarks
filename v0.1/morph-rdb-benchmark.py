@@ -39,6 +39,8 @@ with open(args.ids_file) as fp:
 
 base_path = "querys"
 
+lingbm_mapping = "./LinGBM.r2rml.ttl"
+
 for q in ids:
 	
 	for e in ids[q]:
