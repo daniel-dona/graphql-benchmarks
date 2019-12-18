@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/392/120</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/120</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>120</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>brains favoring</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>rulings mooniest nonallergenic aeronauts thuggeries rainmaker whirlier flannelet merriest litchis thruputs narcissists neatens retie woodcarvers sassily digitalization paella peppiness gloriam pryers vigorously biorythmic payout venturers milestones gladiatorial arterioscleroses domiciliated kipskins escapement kenneled cystitis roared ambassadorships corncobs marzipans argils lavenders unweakened ensilaged obfuscating joinings easements idolatries natron kenneled thatching</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/40</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>40</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>farmhouses</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>hemorrhaging liver adhesions huskiest profeminists feudalists packman urushiol unexcusably synclines apoplectically vends blowtorches offices logotypies pipings antisepticize outlies oceanauts defeatist melanites canaling drear unreconciled sweetness calamities slating leathering counterfeiters</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

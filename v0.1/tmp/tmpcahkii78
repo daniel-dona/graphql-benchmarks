@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/1170/105</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/105</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>105</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>tetherball plena sieurs</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>emissaries dwarfed seasonable cultures raved chemosensitive desugaring antiprohibition maguey flams yowed serially meltons transportal precleans comps cheesier attestator undiscerning cognizers intra leadworks integrating hitches recollection felicitation logicizing plopping</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/32</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>32</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>pouffs sadisms obduction</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>females rubbings obtainers roofings thoughtfully punier handsbreadth adamantine glamorously medals overstretches malthus miscarriage ladened spermatozoa seasonally evanishes satisfactoriness prompted rescued</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

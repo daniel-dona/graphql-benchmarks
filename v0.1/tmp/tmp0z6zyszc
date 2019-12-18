@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/3156/116</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/116</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>116</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>ivied</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>truanted shimmeringly burrowers applicants calibration whittles viragoes designee notes biologically supernovas asexually racketiest refrigerated burlesqued outselling loverly totters unfurling striper skuas clouting cornucopian etcher adds impossibleness beseemed seemings charnels yammers agrology preppie queered baseboards defogger baas quirkiest ultraviolet bering reposed unassimilated</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/20</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>20</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>umbellate</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>insurrectional bucking accommodations floors degaussing sisterhoods primogeniture stover contumelies fifteens atrociously flagellated microradiographically copes plexiglass fowled disincorporated braises mildly incompetencies virucide overembellishes perfectos dignities perdurability pryers overplaying monistic contraindicated trovers impulsed nulled stumper mackerels plentifully bullfight simpers toasting distributors</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

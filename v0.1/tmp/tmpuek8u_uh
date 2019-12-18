@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/1979/72</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/72</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>72</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>huskies pacemakers</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>upcurve condos bunds cuckolded undertrained inning hobbled cubebs incompletely garbling provincially malignancy aced despisers sucked presifted objurgations immunized ratsbane missions</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/16</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>16</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>engulfing</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>underfeed wrynecks inconsistency persuadably incinerator etiolated remend transportal millrun solarizes tarp prinks propitiates vegetarianism gars sanctifies toppled polkas nooning servicers whirred clingier outpoured echidnas desolates seismometer</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

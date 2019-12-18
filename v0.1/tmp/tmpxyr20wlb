@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/1246/112</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/112</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>112</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>markups manuevered</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>solidarities noisome structured kilowatts thankless nitpicking microanalytical funerals foamers dogcatchers strapped vesicant helms obsoleting deprived whimsically nebbishes nonchalantly tangling anesthesiologist mattering earshots overstrict endues avatar puler yamen dabblers bulks welkins gerrymandering terminates terminating risus expostulation demarcation twangs notes meatiest pending horological archbishopric fabaceous unrighteous peacemaking</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/29</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>29</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>abhorrences</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>strobilization accommodation terrestrially mollycoddling dehumanizing steppingstone orchestrally tenuousness yardsticks unneedful calamaries supplants endlessly impregnated heroize navvies studbook analogousness barometric coheirs elongations walking nonelectrically sirrees churchy petroleous coverlets unfamiliarly desensitizes useless autostradas infinitesimally gluttonies conjoins scabbily capitalizer collapses</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

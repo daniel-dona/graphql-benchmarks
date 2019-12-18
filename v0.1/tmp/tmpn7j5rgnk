@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/2961/133</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/133</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>133</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>yukking quaintness imbricate</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>bazooka philosophized fructifying inviters demonstrative helixes defiles apotheoses relentlessly mountaintops resituate slimmest exotics chorused hypnotize acidhead zincky supporters unenterprising mangler embezzling overeducating preventives lichee platypuses imagination speared cloudbursts constellation ensnarements depreciators prettification golliwogs undesired consists waggeries stiffeners reactive quells typographically allays</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/39</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>39</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>encumbering underparts heedfully</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>quadroons magistracies patrilinies yodler extorts majestical gobbled painfuller berhymed homophone tantalization oversleeps defusing pessimists crossbones realizing victimizations quadruplications sentimentalists ransomers measled</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/3090/91</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/91</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>91</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>boulimia ousels</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>gallnuts particularly ensnarled premising festivals unrests lingers thunderheads kb overcompensating relicenses codger reaccredit rehanged reabandons emulating inflators destitution middies chapping</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/18</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>18</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>reglued renovators</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>reindexed wannest moonlights rattler maracas imposed coronach frizzling dunghill falteringly indigently canes confuters nervily boycotts sheepman supporting soundtrack crudities fumes barred antlers secretor pragmatical igniting cavitation preparer maturating inebriates diluvial</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

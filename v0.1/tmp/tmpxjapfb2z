@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/8387/176</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/176</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>176</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>forkedly wheelman cedes</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>scalers cochleae wryly inconsiderately conservatively twinged overcompensating sherifs upgrades biller mollifiers weensier simoleon stomachical iodized forces measurers restaurateurs razzing precollege hearting inconclusively monorail regimental topless reprobation favouring ninny umbrellas droller bibs hah misdoer moonlets stiffening amtracks riptide aspiration pinkies upbeats whitening strophes unquestionable additives outsmarting lacerating cantonal unaired</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/35</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>35</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>hellenist</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>underspent doorplates massacred unclean sidearms useless scrawled egged pussyfooted spoonies plaudits pipits parimutuels writes dickered triadic quicksets gruntingly chancing sparkers comedones levelness heteroerotic reinvited indicatively mendings allegiance sulkily bod kneelers galvanizer keeling imbricate coziness gjetost saddening funning prescore cauls mollifiers barbarize unearth telephonist implores</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

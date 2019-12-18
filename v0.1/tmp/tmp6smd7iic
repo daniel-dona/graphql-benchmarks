@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/851/146</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/146</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>146</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>discourages strutted warbles</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>caramelizes legalized storefronts ungallantly tamer suspended extorting enchant lilliputians trappings germanized sexagenarians nutritiousness jargonize lunas mischief pluperfects ructions subverts copepods syncopes planetoids valorized freightyard fatherhood quackish orisons underfinances civilized centuple perverted psychedelically tuckets petitioner ossea delegacies aquiline dared percussor tariffing kirtled</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/53</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>53</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>viperish</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>cotangents recelebrated reciprocating sunnily hallmarked fortuned orpiments congruously apes yielder wondrously dimorphic franchisees raveling subconscious loury legginged umbellate wardresses diemaker breakings weighters xenograft senselessness drags sailable hellishly realign alcoholics ologies remodify spasmodically choirmasters dimes bucklered goddamn hitchhiked unplug recta circuiteer reunifies swanherd learns</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

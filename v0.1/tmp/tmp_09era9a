@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/886/67</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/67</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>67</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>antiparticles</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>abeyancy polygonally disgustedly middies epistolary caromed bleeps funerals decolonizing nervy klutzes spatular ouzels stemware drillings gunstock fructoses razors imprecisely overinvested vaquero indirectly uncharitable</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/13</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>13</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>chaplets unharmful frizettes</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>wiseliest disunites storables helices eves aims drawler patchiest remigrated indicatives parleys wracking pignorated baboons bassist caramelize definer workup antinucleons chuckfull doozies seismographers stomaching relished wariest botulisms heartsick resided laminates uncouthness ballpoint tabour lipids unsolved chaffier radixes opportunism groins hearthstone gypsied monomials petrographers tints oyes veraciously unshapely</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

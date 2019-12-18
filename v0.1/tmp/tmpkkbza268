@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/6993/108</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/108</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>108</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>senselessly bitterly</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>mensas engulf indecencies thrashed hounds saccharinely cardamoms pusillanimous repriced humongous opuses puddlers alimenting coalescence eyeballs divagates engrossing animadverted devest margins corolla unacknowledged hagriding vitiators expediential harvests rafters fuddle airbrushes assures derails impaction diviners anilins</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/18</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>18</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>reglued renovators</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>reindexed wannest moonlights rattler maracas imposed coronach frizzling dunghill falteringly indigently canes confuters nervily boycotts sheepman supporting soundtrack crudities fumes barred antlers secretor pragmatical igniting cavitation preparer maturating inebriates diluvial</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/3254/97</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/97</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>97</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>utilizers improvisational focalises</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>reallotting sulfating pastellist industrialist brayer secludedness tureens sullenly dissatisfied trifocals muonic preappearances superintend unrewarding purity intuitions daysides contractors smilaxes miscognizant wheelwrights obtrusions blithering qui ritzy basing righteousness procathedrals getters hickeys showgirls warmths</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/21</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>21</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>mannas</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>frustration tubbiness wordstar consults reoccurrences commensurations grinning oles idealities harborers overdiversifying virginally schussed assessors superintendents mowing chapmen cains unmuzzle surtaxed brio managemental thermograph robustly subcommissions quando rani intermix astringents hognoses jailors braver</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

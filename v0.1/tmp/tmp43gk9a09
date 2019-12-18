@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/321/131</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/131</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>131</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>plaice</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>trucklers imitation pavlovian whitewalls snippets faller ombre lockless cynosure tricuspid trustwoman redemonstrated parceling trashed tollways hawses priced legalistic inhospitality abandons straightedge debriefings cerebration paddocks bravely marihuana safflower gesticulation blandest glaringly</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/38</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>38</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>valerian obeah</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>currycombing underarms semipro reptiles corrosives opprobriated irritability kennelling mahonia satanophobia primevally easier paddling damagers tutting sculker splenectomy wardenship galoots advertised cordoned slumped enshrouded gilders grunters armlet syncopates filterer shingling terminators minter gigabits odorless embolisms flightier recriminating</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

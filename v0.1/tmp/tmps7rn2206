@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/427/143</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/143</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>143</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>submental</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>fusel imaginal debs rushing housewarming desensitizing bearably dimmers civvies forestays tastelessly incorporations grounds drawers gibbetted melts commodores hundredths nebs repave killjoys weariest cannonism henrys featheredge replenisher magniloquence retypes gulfy bobtailed graduators wicked veluring ginning paced autoimmunization occlusal spright hooraying intonating wildwood</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/51</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>51</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>halflives cutins forebodies</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>grudged recompenser interhemispheric patrimonially inexplicably entrancing unforeseeable arsonists poiser sombrely weediness elides uninformative havocked nonbelligerents fakes stability hoist wheeziest ideals conchoid gathers ridable quagmiry pileups frontager stippler soapers devastative urbanizing gnoses shopman sectors inciters canonise eyeballed parred twiny lawmakers</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

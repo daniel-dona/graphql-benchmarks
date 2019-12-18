@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/2204/169</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/169</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>169</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>abortionist seppukus</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>foreground licencing tarbush assaulters threatened godowns befooling marseillaise spillway transmissive motivation tempeh rodder neuropsychiatry distracting shrouds miniskirt outfielder wishing snipper facetted interlibrary shoppes raised</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/57</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>57</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>torrential automatons</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>computable phooey squeezer orchectomy traumas sinner preventions leggiest unapplied glop cognoscing rhubarbs haphazardness vats potentiate crematoria polymorphism muzzier nightwalker troughs</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

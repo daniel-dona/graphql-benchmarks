@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/2999/270</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/270</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>270</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>aethers disarticulated</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>ulcering manyfold barquentine seamiest reoriented unites rescinder miscarriages pricy smuttily tizzy coups hoboes bondable gweducs jerkiness perspicaciousness stopt circularized reinviting pylorous grutten premarital garrulity caracol cower pottier sextos appointive</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/59</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>59</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>passivity saturating</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>consummately analytical slatternly bilgier incommunicative cutup translucence generalized underacting reproached tagboards diagraph exhibitionist incorrigibleness runrounds sulfides dites clearer sportive shikses vigils phlebotomies remonstrating impermeabilities categorizer overmodify disbar liers readjust moulin farced</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

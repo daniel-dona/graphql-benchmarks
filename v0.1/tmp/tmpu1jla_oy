@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/354/136</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/136</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>136</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>mesonic</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>maypole handcrafting wintergreens athletically didies bolshevists mourning enslaved micromillimeter cerebri emulatively galoshed soughed relighting primero rebuked waterlogging apartmental consequentially eely smokeless crumples whiners nisei noncivilized nonexistence manitou strippers topographers anticipation motorships mitigatory packers stabilize freshens zombis invisibility reoccurred submicroscopic latchkey visaed lesbians</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/41</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>41</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>shutterbug jarsful cadgy</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>fours chatter tramlines pastiest floweret reconcilers bypassed eradicators lobbers marriages endocrinologists seedsmen maximizers unequalled unsparingness syphon jeopardies arguses zombiisms reportages pawnee gravitates casqued meccas banjoes eddying fattening casuistic outclass aggressiveness wordiest resuscitative</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

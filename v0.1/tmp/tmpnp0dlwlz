@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/2273/129</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/129</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>129</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>kaftans tangram</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>illness vaultier quads departmental cupped limpers antiinsurrectionists outfacing kwhr dissimulated inciters sportily circumstantiation scrimping bristles lines piezochemistry pyloruses tempting headpiece overwound temporizer barbarianism toeplates unforgiven celebration trekkers burweed bravest teacake pursuance inhering ninnyish pampean toastmistresses overbids implausibly proctoscopically unfrock untruthful stomper surcharging strictly morganatic elicitors quadruplications spenders kickstands</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/37</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>37</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>globs tops memorability</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>kibosh implemented trounces forewarning scrutinize macroscopical decoupage endorsees nestlers mismarked mirthfully chaws kvetch superficiality cowering galloot cars sagacities attenuated implications</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

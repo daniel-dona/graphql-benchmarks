@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/10693/168</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/168</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>168</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>noodles nourishes</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>groper abnormality redevelopment recopies askant rearming sniping surceased zings blighted toyotas whifflers ideograph unraised desirability provides breakfront laboriously roommates baubles overkilled ignifying editorialization terminated ideation soldering faraway lurked fertilizer phrenetic interpreter intravenously curacy gravest deluders applicative forego sharps dislocations advertisements trolleyed</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/33</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>33</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>surfaces ambled wifehoods</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>wallets wayless demimondaine moonward conformism lathy aerators metacarpal intravaginal interfaces dazzled delicto preexposing nutritionists wriest futuristic busings uneven depleted puritans nonresistant frankensteins manhattans reunifies crumbling sanding vouchering modeler shintoism washwomen pakistanis fineable misnumbered subdivide unimproved ascribed pecker abashed illogics tributaries bruin disjoints loyaler libs coleslaw</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>
