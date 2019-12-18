@@ -9,13 +9,21 @@ parser.add_argument("-o", "--output_timings", required=True, help="Output file w
 parser.add_argument("-d", "--debug_querys", required=False, help="Output file with debug data of the run querys")
 args = parser.parse_args()
 
-def gen_config(mapping,query,output,port):
+def gen_config(query,port):
 	
-	query_file = tempfile.NamedTemporaryFile()
+	mapping = "./LinGBM.r2rml.ttl"
+	
+	run_file = tempfile.NamedTemporaryFile()
+	
+	name = run_file.name
+	
+	output_result_path = tempfile.NamedTemporaryFile()
+	
+	output = output_result_path.name
 	
 	props = '''mappingdocument.file.path='''+mapping+'''example1-mapping-mysql.ttl
-	query.file.path='''+query+'''example1-query01.rq
-	output.file.path='''+output+'''example1-query01-result-mysql.xml
+	query.file.path='''+query+'''
+	output.file.path='''+output+'''
 
 	no_of_database=1
 	database.name[0]=benchmark
@@ -25,7 +33,10 @@ def gen_config(mapping,query,output,port):
 	database.pwd[0]=1234
 	database.type[0]=mysql'''
 	
-	query_file.write(props)
+	run_file.write(props)
+	run_file.close()
+	
+	return name
 
 def get_port(dataset):
 	
@@ -39,7 +50,9 @@ with open(args.ids_file) as fp:
 
 base_path = "querys"
 
-lingbm_mapping = "./LinGBM.r2rml.ttl"
+
+
+
 
 for q in ids:
 	
@@ -49,7 +62,11 @@ for q in ids:
 			
 			query_path = base_path+"/"+str(e)+"/"+str(q)+"/"+str(v_id)+".rq"
 			
-			conf = gen_config(lingbm_mapping,query_path,output_result_path,get_port(e))
+			
+			
+			conf = gen_config(query_path,get_port(e))
+			
+			print(conf)
 		
 # Descargar directorios con consultas
 # Mapear datasets a puertos
