@@ -71,7 +71,7 @@ for q in ids:
 
 			print(conf)
 
-			quit()
+			
 		
 # Descargar directorios con consultas
 # Mapear datasets a puertos
