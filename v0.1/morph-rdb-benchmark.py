@@ -68,9 +68,8 @@ for q in ids:
 			
 			subprocess.call(["java", "-cp", ".:morph-rdb.jar:lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf])
 
-			
 			print(conf)
-			
+
 			quit()
 		
 # Descargar directorios con consultas
