@@ -56,7 +56,7 @@ for q in ids:
 				
 				if e == "1K":
 				
-					execute_query(query_path, e)
+					ms = execute_query(query_path, e)
 			
 					print(".", end="", flush=True)
 
