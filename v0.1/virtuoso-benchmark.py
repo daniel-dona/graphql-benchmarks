@@ -21,9 +21,11 @@ def execute_query(query_path, dataset):
 	
 	s = time.time()
 	
-	print(sparql.query())
+	d = sparql.query()
 
 	delta = time.time() - s
+	
+	print(d.convert())
 
 	return delta
 	
