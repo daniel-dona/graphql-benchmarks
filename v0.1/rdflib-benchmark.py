@@ -13,7 +13,7 @@ def execute_query(query_path, dataset):
 	g = rdflib.Graph()
 
 	print("parsing ...")
-	g.parse("./rfdlib/"+dataset+".nt", format="nt")
+	g.parse("./rdflib/"+dataset+".nt", format="nt")
 
 	print("querying ...")
 	f = open(query_path, "r")
