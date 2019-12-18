@@ -23,7 +23,7 @@ def gen_config(query,port):
 	
 	output = output_result_path.name
 	
-	props = '''mappingdocument.file.path='''+mapping+'''example1-mapping-mysql.ttl
+	props = '''mappingdocument.file.path='''+mapping+'''
 	query.file.path=../'''+query+'''
 	output.file.path='''+output+'''
 
