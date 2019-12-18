@@ -15,7 +15,7 @@ def gen_config(query,port):
 	
 	mapping = "./LinGBM.r2rml.ttl"
 	
-	run_file = tempfile.NamedTemporaryFile()
+	run_file = open("/tmp/morph.props", "w")
 	
 	name = run_file.name
 	
