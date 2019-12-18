@@ -144,7 +144,7 @@ endpoints = [ep_1K, ep_2K, ep_4K, ep_8K, ep_16K]
 with open(args.ids_file, 'r') as fp:
     ids = json.load(fp)
     
-print(ids)
+#print(ids)
     
 
 information = {}
