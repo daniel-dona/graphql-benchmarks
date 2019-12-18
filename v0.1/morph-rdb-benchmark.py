@@ -24,7 +24,7 @@ def gen_config(query,port):
 	output = output_result_path.name
 	
 	props = '''mappingdocument.file.path='''+mapping+'''example1-mapping-mysql.ttl
-	query.file.path='''+query+'''
+	query.file.path=../'''+query+'''
 	output.file.path='''+output+'''
 
 	no_of_database=1
@@ -67,7 +67,7 @@ for q in ids:
 
 			conf = gen_config(query_path,get_port(e))
 			
-			subprocess.call(["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", "/", conf])
+			subprocess.call(["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf])
 
 			print(conf)
 
