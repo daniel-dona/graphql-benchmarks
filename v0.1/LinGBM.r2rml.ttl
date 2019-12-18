@@ -577,8 +577,8 @@
 <TMCountry>
 	rr:logicalTable  [
 		#CREATE VIEW country AS SELECT DISTINCT country AS code FROM person
-		# rr:tableName  "country";
-		rr:sqlQuery  """SELECT DISTINCT country AS code FROM person""";
+		rr:tableName  "country";
+		#rr:sqlQuery  """SELECT DISTINCT country AS code FROM person""";
 	];
 
 	rr:subjectMap [
