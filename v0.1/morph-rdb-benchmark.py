@@ -8,8 +8,8 @@ parser.add_argument("-o", "--output_timings", required=True, help="Output file w
 parser.add_argument("-d", "--debug_querys", required=False, help="Output file with debug data of the run querys")
 args = parser.parse_args()
 
-with open('ids.json') as json_file:
-    ids = json.load(json_file)
+with open(args.ids_file) as fp:
+    ids = json.load(fp)
 
 for q in ids:
 	
