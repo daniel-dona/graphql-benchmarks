@@ -26,7 +26,7 @@ def execute_query(query_path, dataset):
 
 	delta = time.time() - s
 	
-	print(d.convert())
+	#print(d.convert())
 
 	return delta
 	
