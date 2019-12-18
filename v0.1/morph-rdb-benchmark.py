@@ -45,7 +45,7 @@ for q in ids:
 		
 		for v_id in ids[q][e]:
 			
-			query_path = base_path+"/"+e+"/"+q+"/"+v_id+".rq"
+			query_path = base_path+"/"+str(e)+"/"+str(q)+"/"+str(v_id)+".rq"
 			
 			conf = gen_config(lingbm_mapping,query_path,output_result_path,get_port(e))
 		
