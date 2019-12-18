@@ -73,9 +73,9 @@ for q in ids:
 				["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf],
 				stderr=subprocess.STDOUT))
 				
-			regex = r"\s(\d+)\sms."
+			
 
-			x = re.search(r"\bS\w+", str)
+			x = re.search(r"\s(\d+)\sms.", crap)
 			
 			
 
