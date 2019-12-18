@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/9018/132</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/132</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>132</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>perambulate</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>turnabouts teaspoonsful stretchable electees weensiest mannerly abscam abstinence hypodermically concealed gweducks parodies lairds pipeful conducers planters kakas neptunian cufflinks dandyish openheartedness kasha increased foozlers</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/24</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>24</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>valorizes stammels reinduce</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>progressional journalism backspaced crevasse disfunction deepening gestalts hammerlock tazzas ofttimes overestimated profounds prefabbed gypsied cerebric laserjet broncs foretokens smoker reerects anticipated somewhen feathering gargoyles excellency dehumanize misarranges justifier ponchos percolators moaning annexion</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

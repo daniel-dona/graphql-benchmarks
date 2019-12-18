@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/2257/149</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/149</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>149</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>argentum</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>loins hypoderm adulteresses elicitors nitrated timeserver clifts tasked ochery privities spreadsheets conditionality physics boarders blitheness yowling tressiest foolery liabilities bordels poodles lyes cantankerously lambed ripened tomtit flypapers beholders plumpness orrery regicide libbers bacchanal costumiers sinner humanest algerians reappearance reminiscence comped massless durn</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/28</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>28</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>dichotomously</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>quietude sheathers huaraches beholden coagulator prosthetics ecclesiastically obsessed vitalities batwomen resorted donation puritans slummy oversells untractable oinking pussyfooted insensitivity egomanias megalithic hiccups reinducted greeting largely fender rubbles unquote unalarming anthropologies</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

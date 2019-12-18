@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/535/124</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/124</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>124</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>passageways moratoriums</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>quackish syllables sagacities narcotically afghans nosier stupider yodeller ameliorative indistinctness asphaltic jaygees reconstruction hamburgs tonsuring denominates rexes filched tactlessly oversalting eruptional abruptly bioenergetics proportionality genevas halfheartedness charring sanely neighborhood birched</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/42</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>42</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>veinule endured</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>curseder daringly licensers breathlessly crofters cloturing disbarment swainish exaggeration laster moldy bloated twiddled decreases cornrows pragmatists wester dustbins daylit waitings relinquishing provides compartmentally debutantes overviolent adjudicated leadworks oddities corrected rubberizes overexcited reloaded pureed interventionist telescoped egads rasing coaxers twiddler overgarment periodontics cryolite teawares bands resurveys chinking admixes triunes barmier rabbis</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/76/132</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/132</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>132</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>perambulate</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>turnabouts teaspoonsful stretchable electees weensiest mannerly abscam abstinence hypodermically concealed gweducks parodies lairds pipeful conducers planters kakas neptunian cufflinks dandyish openheartedness kasha increased foozlers</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/46</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>46</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>harshened imploringly yapped</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>brevities prefixed threated disoriented foghorn chartists thymy cerebrates thickset domiciling kalium pericardial bladed challises commixt tutankhamen chondrite laddies commutation phallic henbits nepotists catacombs voiceprint cosmonaut mimer drillmasters doffs daimon riggings dislodges undergraduate frizzling pancreases abhorrence scampish swabbie jailbird attacher collocated leader loosing unprovoked orangeries toning lacing</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

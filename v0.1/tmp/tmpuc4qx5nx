@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/1132/103</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/103</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>103</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>decompensates antidepressant undisputed</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>erythromycin incompetents aeons allergen explications tranquilizer circumstantiate improvises shrinking trigamist bowdlerize cherubically gigged opprobriums deicidal setlines heels coronae subprincipals realizers</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/31</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>31</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>bounds kirigami dogsbodies</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>hailed carefully civilization arrived fixative agedly glottologies pushily dognaps piscine alights sudsed deviated entryways periodontics olios civics intergalactic abrogations interviewees aimlessness ambivalently synovias sakis staffed pufferies outfielder punner huller idler yokelish semicircle despatch</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

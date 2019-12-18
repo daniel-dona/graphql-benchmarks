@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/1123/100</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/100</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>100</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>meaningfulness refulgence</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>pronunciations houris expediter subways maenad mammalians vugg dearths selfed ricracs larvicide torpedoes rabidness oubliette indorser disorganize credentialed acidheads doorknobs hollower coupons lory introspective immunotherapies bouzoukis resistent remap republishing prioress craves infrangible reappearing haziest ranking sorels smoothest changelings miffing wassails avianize indigestibility grizzles carbines greathearted flaking</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/23</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>23</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>feeblemindedness arrhythmical rectangles</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>fido dancer moderates orogenic storerooms pithed condenser flammably backsaw goggles idolatries anacondas hounds mothering ensky rapider toroids quadriplegia likers mullioning sheaves grimmer redistills loaning kaliphs hawker</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

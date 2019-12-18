@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/2023/134</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/134</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>134</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>vapourers chainmen</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>unsought miscounted nullifications elflock contortionists capablest lucubrate ablated entrenches gaslit answerability churl aortas rackers novices hamburgers nonperishable uprooters vitally contentiousness indiscrete tramming whiteners firebombed transmits wrathier plebes cabbalahs tortured deflation</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/25</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>25</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>balancing antiradicals</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>pokeys resorts comping christianize gears ranges cobs roscoes derogatoriness arguer polyandries susurrations sputterer arrestment meninges arming nabobisms conventicle hybridizer coffered caracol handpicking flatter uncurling climatically remora scuppering marketings carotin palatably zeroing smells smeariest capful</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

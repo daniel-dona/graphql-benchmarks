@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/3800/172</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/172</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>172</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>nonplusing</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>brokerages centillion persuader cogitation senilely pigmenting larboards seeps cymbalers racialism overgeneralizing weals stalkiest cannabism elastins faintheartedly beautifying boniness swaybacks sobber progressiveness sacrilegiously shammed scoundrels</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/34</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>34</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>provisionally tolerative memorialize</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>elegizing reconvening brazened forcedly titillation bldg riprap nonaddictive endozoic noctambulation tempters miseries topper performances idahoan zebras enrolled flatted unbounded piastre anthropomorphisms stirs accusativeness clotheslines urbanisms grackles fishmeal bedevilling retouchable congas phaseal englishwoman thiamines strikers biddably hoarsening abbess gossips</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

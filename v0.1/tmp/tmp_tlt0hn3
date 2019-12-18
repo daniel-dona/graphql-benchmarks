@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/616/57</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/57</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>57</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>torrential automatons</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>computable phooey squeezer orchectomy traumas sinner preventions leggiest unapplied glop cognoscing rhubarbs haphazardness vats potentiate crematoria polymorphism muzzier nightwalker troughs</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/8</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>8</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>unsalaried</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>crossbars avowedly misguiders trisection duodecimals unhandy lasher clawing annexed incubated unplanted fictionalizes sashed moderner neonatology taloned nominative intramural lounges pissoirs parasiticidal hewers stroker antitoxin fesses virtues carinae summarizes abutters beknighted strutters prepares minimizers remodeled anarchists spiders sensualists lulled bocci seismometer nickered</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

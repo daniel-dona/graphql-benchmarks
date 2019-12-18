@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/12730/307</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/307</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>307</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>uncoagulated lowish procreators</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>incontestabilities archdeacons agendums somatotypology garnished headband curves mows skinfuls uncertainty craving incas maenades fitfulness mas creditors fixity churchlier assumed routines quartered mishmosh booms globoid syndicating orcas</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/68</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>68</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>dangled</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>gorgeousness appendages teethings jingoist potbellies qui sigmoids lobotomies bestrewn forsakers lowing equitant foods designment vibrance atheists suffixion gamy tundras shortening samovars soapbark bulled electropositive reworking realigns ultrastructural repowering mammalians hedgier liberationist bronzing</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>
