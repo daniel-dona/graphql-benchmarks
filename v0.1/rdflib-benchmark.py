@@ -1,53 +1,84 @@
-#!/bin/python
+#!/usr/bin/env python3
 import argparse
-import re
 import json
-import os
-import rdflib
-import time
+import tempfile
+import re
+import subprocess
 
-def execute_query(query):
+parser = argparse.ArgumentParser()
+parser.add_argument("-i", "--ids_file", required=True, help="Input file with JSON encoded IDs")
+parser.add_argument("-o", "--output_timings", required=True, help="Output file with CSV encoded benchmark results")
+parser.add_argument("-d", "--debug_querys", required=False, help="Output file with debug data of the run querys")
+args = parser.parse_args()
+
+def execute_query(query_path, dataset):
     g = rdflib.Graph()
 
     print("parsing ...")
-    g.parse("/Users/freddy/Downloads/1Ksmall.nt", format="nt")
+    g.parse("./rfdlib/"+dataset+".nt", format="nt")
 
     print("querying ...")
-    f = open("/Users/freddy/morph-graphql/examples/LinGBM/queries/sparql-queries/1K/q1/1264.rq", "r")
+    f = open(query_path, "r")
     query = f.read()
     print("query= " + str(query))
 
+	s = time.time()
+
     qres = g.query(query)
+
+	delta = time.time() - s
 
     for row in qres:
         print("%s = " + str(row))
 
-    print("bye")
-
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-c", "--json_config", required=True, help="Input config file with yarrrml and csvw")
-    args = parser.parse_args()
-    with open(args.json_config, "r") as json_file:
-        config = json.load(json_file)
-    g = rdflib.Graph()
-
-    for query in config:
-
-        for size in config[query]:
-            g.parse("./"+size+"/"+size+".nt", format="nt")
-            for index in range(len(config[query][size])):
-                path = "./"+size+"/"+query+"/"+str(index)+ ".rq"
-                with open(path, "r") as file:
-                    content = file.read()
-
-                for i in range(5):
-                    start = time.time()
-                    qres = g.query(query)
-                    delta = time.time() - start
-
-                    
 
 
-if __name__ == '__main__':
-    main()
+with open(args.ids_file) as fp:
+    ids = json.load(fp)
+
+base_path = "querys"
+
+
+csv = ""
+
+
+for q in ids:
+	
+	print("Running query "+str(q)+": ")
+	
+	for e in ids[q]:
+		
+		print(" > "+str(e)+": [", end="")
+		
+		for v_id in ids[q][e]:
+			
+			query_path = base_path+"/"+str(e)+"/"+str(q)+"/"+str(v_id)+".rq"
+
+			for i in range(n_runs):
+				
+				if e == "1K":
+				
+					execute_query(query_path, e)
+			
+					print(".", end="", flush=True)
+
+					csv += str(e)+","+str(q)+","+str(v_id)+","+str(ms)+"\n"
+					
+				else:
+					
+					print("^", end="", flush=True)
+			
+			print("|", end="", flush=True)
+			
+		print("]")
+		
+		
+
+
+text_file = open(args.output_timings, "w")
+text_file.write(csv)
+text_file.close()			
+		
+			
+
+
