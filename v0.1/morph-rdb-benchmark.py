@@ -66,7 +66,7 @@ for q in ids:
 
 			conf = gen_config(query_path,get_port(e))
 			
-			subprocess.call(["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf])
+			subprocess.call(["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", "/", conf])
 
 			print(conf)
 
