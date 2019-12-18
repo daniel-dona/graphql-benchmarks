@@ -33,7 +33,8 @@ def gen_config(query,port):
 	database.url[0]=jdbc:mysql://mysql-morph:'''+port+'''/morph_example?allowPublicKeyRetrieval=true&useSSL=false
 	database.user[0]=testing
 	database.pwd[0]=1234
-	database.type[0]=mysql'''
+	database.type[0]=mysql
+	'''
 	
 	run_file.write(props)
 	run_file.close()
