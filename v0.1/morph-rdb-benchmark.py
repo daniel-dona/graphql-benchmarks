@@ -30,7 +30,7 @@ def gen_config(query,port):
 	no_of_database=1
 	database.name[0]=benchmark
 	database.driver[0]=com.mysql.cj.jdbc.Driver
-	database.url[0]=jdbc:mysql://mysql-morph:'''+port+'''/benchmark?allowPublicKeyRetrieval=true&useSSL=false
+	database.url[0]=jdbc:mysql://127.0.0.1:'''+port+'''/benchmark?allowPublicKeyRetrieval=true&useSSL=false
 	database.user[0]=testing
 	database.pwd[0]=1234
 	database.type[0]=mysql
