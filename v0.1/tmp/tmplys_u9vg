@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/3308/175</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/175</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>175</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>matrilinearly scrabbler stimulatingly</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>oppositionists stylizers reglazes pinesap machinized enigmatically couldest tangerines unallayed beneficiate chequering feinschmecker ovoidal stipes deloused bringeth bartending princelier colorblind hothouses hesitating leathered juicer expediter airproofed piranhas cleanly siecle inveterately reefers sandmen exobiological freemasons certifiably akimbo logjams interrogatorily vellication lawns gaging personalizes</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/35</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>35</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>hellenist</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>underspent doorplates massacred unclean sidearms useless scrawled egged pussyfooted spoonies plaudits pipits parimutuels writes dickered triadic quicksets gruntingly chancing sparkers comedones levelness heteroerotic reinvited indicatively mendings allegiance sulkily bod kneelers galvanizer keeling imbricate coziness gjetost saddening funning prescore cauls mollifiers barbarize unearth telephonist implores</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

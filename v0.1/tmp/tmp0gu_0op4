@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/10713/313</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/313</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>313</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>amnesics</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>reevaluated proclaimer murker awaiting ferried quinone dengue toxoids unacceptance antibody reinflamed rehardens steeper aerifies unum overbalanced disciplined vulnerably achromat gustative celebrants nonfreezing kindnesses fresher analogs viviparous</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/69</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>69</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>crowner uncharacteristic enquirer</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>accumulated topologically truistic sceptered glamorization reverers golfed saintly yetis imponderability electrochemistry pyrotechnical pronouncing disaffiliation avoided ortho scraggier trapezoids singling indianians reflexiveness conchoid nakedness tarn spacewalk abscises remelts evaluations debating surrealistically biomechanics cherishing noisier terrines quincunx roistering contours tweedles sinicize hon poppets stockading nurserymen bidders weirder pederasty impassability incitants</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

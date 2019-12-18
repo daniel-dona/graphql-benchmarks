@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/1742/75</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/75</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>75</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>broguery</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>remonetization bunting ultimatums otiosely tenderize bioenvironmentaly virilities outrun gustation perishably mulier degermed motorizes positiveness slimming bottleful icelander falsettos extemporized unscholarly distensibilities manometric preblesses chasmed ensnarling yippie cogence bulbed alchemist autointoxication strugglers slangiest dendrites</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/10</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>10</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>sheeny</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>pastured priors ballades tormented towpaths transfused yahweh admonishments insertions afterwards nontemporally scrawlier luxes aphorise tediousness biogeochemistry plutocratic conjurer transnational achoo rehandling bended befogged obstreperously exhaled musks</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

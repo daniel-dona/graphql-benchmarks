@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/2140/166</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/166</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>166</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>noninductive</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>unsanctified miffy gadgetries honeybun candidnesses contrapuntal leastwise uneconomical signalized commingles wagering tennesseans caging testifiers cactuses nippier uncontrolled dapperer oversaw withholder scraggier abysms</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/56</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>56</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>retirer</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>rubrics tramline osteotomy institutes vaunter chertier substitutions lamaism exculpations maledictions nightwear telluric subbings florets lividly barrister oozy obliqued barricades franchiser mistranslate smuggest pensionable eschewals abandoned sordidly turnspit differentiating medicates charlatanism serialize disregardful groans spiritualized submontane cheapen returner carrier pigments spasticities foldboats couplets japer halfpennies</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/4573/110</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/110</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>110</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>luridly</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>orogeny misstatements aurum traipsing glim pumpernickel tercentennial defamation beefless ladlers federating sizing hesitancy dognap essences eroding tetrarchs logrolling bulletproofed stuffiest nonvocal zippier enate sticks snuffles coldish thermodynamics minxish muddier</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/19</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>19</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>onefold outproduces decalcomania</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>mouldiest sulfurized accommodator shrewdly rugging grumbled celebrators thereout paraphrases interjectional preshaped rationalizes lagoons fossate pinworms egomaniac throating toothaches scrubs tentatively toweling inputted chickpeas unlivable noncomplying knucks aerobes warpers location emulating hangings enfolder seascapes armourer expunging compressors</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/1374/83</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/83</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>83</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>scorched deprecatingly gooder</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>pertinacity sunshines tolerative ravishments attraction provocatively remits pieta reawakened ostensive pauperization subrules denuding hedges gangplow glaciology oratories carnify broodiest celebre relenting boxer hotdogging mouthwash unexampled multilayer ceder limeades unmended diluted lays anneals bludgeoning mediumistic vaster goebbels sponsorial digitalized ballyhooing arsenites esculents cupronickel hysterectomies thunderhead overscrupulous aortal faiths nits</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/14</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>14</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>dyspeptics indubitably</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>congruous values tampers pudgier hypothermic tinkered slouches hamstring clef raper deserves tidbits vinculum shopkeeper impresses cannonry discourses outgrowing rebutters haymaker allegorists inkles restorativeness unexcelled quintan vivification ensorceled preclusively respondencies imaginable nabob seductresses chaunters perlites spinally masterpieces credibleness biogeography kisses pepperer gruesomeness intercourse teleport charmed parsers flimsily</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

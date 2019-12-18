@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/4453/154</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/154</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>154</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>rotifers</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>comfier wildcatting wirable misspend oscillogram corroborating cuffs editresses goldbricks irradiation gantries elephants junkers observer brats sennits regilded tunisians tach reverifies jackets sixthly rememberer</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/30</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>30</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>overambitiously asphyxiates</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>netter backs reboils ablated whorls calumniations layering blurters dismortgaging commands expropriations vignetting trimly replicates autocracies synovial bullocks typifiers reinfect playwears auriform paupers mannered masers smoothly computer radioman</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

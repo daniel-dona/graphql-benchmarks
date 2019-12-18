@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/1124/63</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/63</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>63</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>henpecked designs undersigned</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>nocturnes facially esplanades reconversions irruptions shamefully eclecticism middlebrowism commitments crabber workingwomen entwine outrace sweated caravaning uncritical winkles dippy pestiferous extraterrestrially criminology genres wrongers</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/11</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>11</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>playacted</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>squeegeed disappointed gabbled misunderstand deriving obituaries eulogist saboteur sward maintops preterit auricled reddened befuddles sidelights reexchanged soothingly conscripts tigrish broguery distributing unconventionalized kvetches fomentation habituation elmy obeisances birdied pseudonymous cabby copulae easels checker exchequers remodifies spatulate upload ceramist kakis infuriation upholsterer plumberies incipiencies</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

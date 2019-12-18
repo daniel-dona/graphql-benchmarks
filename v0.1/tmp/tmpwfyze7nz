@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/540/135</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/135</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>135</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>pieing</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>flukes darneder dyslectic ritzier singing momism converses poliomyelitic shivas marrowed ditchless restructured maned selfness discerners abundances jeerers unconvincingly nonsuccessiveness adventuress antiquing fluidly nonaggression preexamining docilities spiniest jazziness arables intensifications weirder emasculation taphole raffling bespoken enneads goldener ameer memorably bamboozled thiabendazole pining genially</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/47</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>47</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>approbating</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>sculpted euphenics decentring kittenishly ophthalmological backspaces connectors specifics affaires unsubstantial lexically romaines pleats catfishes cytologies orneriness gaugers jeopardized daring corrects overinterest racism towable bailies dreck defines chittering nibbles subprincipal morns inarticulateness cribwork almanacs vapourers shticks underhandedness</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

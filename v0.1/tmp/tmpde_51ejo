@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/69/100</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/100</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>100</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>meaningfulness refulgence</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>pronunciations houris expediter subways maenad mammalians vugg dearths selfed ricracs larvicide torpedoes rabidness oubliette indorser disorganize credentialed acidheads doorknobs hollower coupons lory introspective immunotherapies bouzoukis resistent remap republishing prioress craves infrangible reappearing haziest ranking sorels smoothest changelings miffing wassails avianize indigestibility grizzles carbines greathearted flaking</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/30</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>30</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>overambitiously asphyxiates</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>netter backs reboils ablated whorls calumniations layering blurters dismortgaging commands expropriations vignetting trimly replicates autocracies synovial bullocks typifiers reinfect playwears auriform paupers mannered masers smoothly computer radioman</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

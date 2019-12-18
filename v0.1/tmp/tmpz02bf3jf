@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/8250/140</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/140</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>140</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>containments</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>mistiest reestablishing hoofbeat poltroon treasons spavined veilings chemism circuity hemlocks yeshivah overwilling egalitarians bullies toper observably saclike octopuses opted stipulator hoosegows outputted confuter pitiably rhetors fledges jocosely parasiticide duodenum hibernator placing prochurch belows collaborative whipworms sanctifier slummiest diaeresis baubles subtleness nebulise</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/26</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>26</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>heroics biracialism</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>microvolt subtopic factiously propmistress triangulated everted pistolling canzona disapprovals linnet cribbages gravies rubbernecked bleachers buffeted vasodilation hussy vacillated determinedly italicize alacrities abscise tamperer mamboing disemboweling protectionist hacked hyperbolically droppings irritancies graceless kabob oblongly curares tinsmiths kingliness splosh</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

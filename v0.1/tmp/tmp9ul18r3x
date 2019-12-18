@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/581/74</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/74</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>74</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>opened predatoriness synchronizer</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>reasonless vaultings kooky reposition acidification languishers skidded bolted surmounts unaffiliated annexational thrilled froggiest mismatched neckwears discrepantly gauchos caoutchouc southerner perkily genres bednights authenticity rains tighter cooperators appaloosa reshuffled hosier boudoir pumped</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/17</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>17</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>daftly volute outvoted</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>desperadoes easiest peery jughead lepton gamins rebated enthusing bullocks beheading extinguishes mudslinging surefire glands disinter savouriest stakeout desegregation pruners ocurred condones annoying retractors wharfed helipads saucers cassaba burundians quitclaiming conns rotting transpolar silkier romanticization misreporting reproof excoriates medics</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

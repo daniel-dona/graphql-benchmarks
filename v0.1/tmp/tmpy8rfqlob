@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/9452/324</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/324</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>324</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>reproduce</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>middlemost caroused reattach tenably tympanic binder foresters agamic busboys unrestored kneeler chaplet newts deckle vegas overeducating replicates corks cinematheques charmers licitation geezer recombines</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/72</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>72</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>huskies pacemakers</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>upcurve condos bunds cuckolded undertrained inning hobbled cubebs incompletely garbling provincially malignancy aced despisers sucked presifted objurgations immunized ratsbane missions</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

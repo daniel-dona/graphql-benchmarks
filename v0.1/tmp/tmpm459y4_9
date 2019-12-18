@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/4201/97</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/97</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>97</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>utilizers improvisational focalises</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>reallotting sulfating pastellist industrialist brayer secludedness tureens sullenly dissatisfied trifocals muonic preappearances superintend unrewarding purity intuitions daysides contractors smilaxes miscognizant wheelwrights obtrusions blithering qui ritzy basing righteousness procathedrals getters hickeys showgirls warmths</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/15</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>15</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>redrafted tarting</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>kyat angler sabotages placarded saliently meandered effulgences terminators gendarmerie iguana titteringly laking copepods reactivate hazarded liveliness viscoid incarcerator distress declinable bacchants nontechnical remortgaged prettification bloater criticized teenybopper unhorses viniest swizzler annotatively babu gausses nonaddicting rued immovably mesomorphic</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

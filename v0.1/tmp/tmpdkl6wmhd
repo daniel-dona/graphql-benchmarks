@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/1228/94</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/94</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>94</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>darkliest isolator</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>engagement transoms lenience gunmetals neutrals fugging caffeins arbor actinides hellgrammites succulents trollies sawed vouches instructed restraightened buttresses swagger darwinians deselects budgie emetically miscued miaou premises hepatize columnist understandingly sleeker lightering grandee contours despatcher coalholes technologist</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/27</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>27</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>courtrooms skyjacked daphnias</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>backslider apprenticing baa slumbered tinhorn grubworms purchasers statisticians improvidently albanians manginess entomb elopements adviser gundog lambaste ultrasonics livings copped undraping cavorter freeloader beetroots antiheroes</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>
