@@ -1,6 +1,6 @@
 mappingdocument.file.path=LinGBM.r2rml.ttl
-	query.file.path=querys/2K/q4/26311.rq
-	output.file.path=/tmp/tmp7sntbf_3
+	query.file.path=querys/2K/q4/14599.rq
+	output.file.path=/tmp/tmp8ykbe7wx
 
 	no_of_database=1
 	database.name[0]=benchmark
