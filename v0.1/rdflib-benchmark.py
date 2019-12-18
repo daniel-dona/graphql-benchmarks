@@ -12,29 +12,29 @@ parser.add_argument("-d", "--debug_querys", required=False, help="Output file wi
 args = parser.parse_args()
 
 def execute_query(query_path, dataset):
-    g = rdflib.Graph()
+	g = rdflib.Graph()
 
-    print("parsing ...")
-    g.parse("./rfdlib/"+dataset+".nt", format="nt")
+	print("parsing ...")
+	g.parse("./rfdlib/"+dataset+".nt", format="nt")
 
-    print("querying ...")
-    f = open(query_path, "r")
-    query = f.read()
-    print("query= " + str(query))
+	print("querying ...")
+	f = open(query_path, "r")
+	query = f.read()
+	print("query= " + str(query))
 
 	s = time.time()
 
-    qres = g.query(query)
+	qres = g.query(query)
 
 	delta = time.time() - s
 
-    for row in qres:
-        print("%s = " + str(row))
+	for row in qres:
+		print("%s = " + str(row))
 
 
 
 with open(args.ids_file) as fp:
-    ids = json.load(fp)
+	ids = json.load(fp)
 
 base_path = "querys"
 
