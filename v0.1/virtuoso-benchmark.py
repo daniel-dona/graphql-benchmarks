@@ -15,7 +15,6 @@ def execute_query(query_path, dataset):
 	
 	f = open(query_path, "r")
 	query = f.read()
-	print("query= " + str(query))
 
 	sparql.setQuery(query)
 	
