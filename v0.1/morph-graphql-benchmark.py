@@ -5,7 +5,9 @@ from random import randrange
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-i", "--ids_file", required=True, help="Output file with the random generated IDs for the LinGBM querys")
+parser.add_argument("-i", "--ids_file", required=True, help="Input file with JSON encoded IDs")
+parser.add_argument("-o", "--output_timings", required=True, help="Output file with CSV encoded benchmark results")
+parser.add_argument("-d", "--debug_querys", required=False, help="Output file with debug data of the run querys")
 args = parser.parse_args()
 
 
@@ -143,8 +145,6 @@ with open(args.ids_file, 'r') as fp:
     ids = json.load(fp)
     
 print(ids)
-
-quit()
     
 
 information = {}
@@ -169,7 +169,7 @@ for endpoint in endpoints:
 
 		start = time.time()
 		
-		for v_id in q["values"][endpoint["name"]]:
+		for v_id in ids[q["name"]][endpoint["name"]]:
 			
 			v_q = q["query"].replace("$$id$$", str(v_id))
 
@@ -195,12 +195,11 @@ for endpoint in endpoints:
 		print("]")
 
 
-with open('query_results_'+str(int(time.time()))+'.json', 'w') as fp:
-    json.dump(results, fp)
+if args.debug_querys:
+	with open(args.output_timings, 'w') as fp:
+		json.dump(results, fp)
 
-
-
-text_file = open('full_report'+str(int(time.time()))+'.csv', "w")
+text_file = open(args.output_timings, "w")
 text_file.write(csv)
 text_file.close()
 
