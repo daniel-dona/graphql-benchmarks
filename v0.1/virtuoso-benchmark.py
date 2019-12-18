@@ -16,7 +16,7 @@ def execute_query(query_path, dataset):
 	f = open(query_path, "r")
 	query = f.read()
 
-	sparql.addDefaultGraph("http://"+dataset+".lingbm.morphgraphql.oeg-upm.net/")
+	sparql.addDefaultGraph("http://"+dataset.lower()+".lingbm.morphgraphql.oeg-upm.net/")
 	sparql.setQuery(query)
 	sparql.setReturnFormat(JSON)
 	
