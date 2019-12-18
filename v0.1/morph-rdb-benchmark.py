@@ -85,7 +85,9 @@ for q in ids:
 
 				csv += str(e)+","+str(q)+","+str(v_id)+","+str(ms)+"\n"
 			
-		print("|", end="", flush=True)
+			print("|", end="", flush=True)
+			
+		print("]")
 		
 		
 
