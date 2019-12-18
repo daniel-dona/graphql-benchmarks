@@ -75,7 +75,7 @@ for q in ids:
 				
 			
 
-			x = re.match(r"\s(\d+)\sms.", str(crap))
+			x = re.search(r"\s(\d+)\sms.", str(crap))
 			
 			
 
