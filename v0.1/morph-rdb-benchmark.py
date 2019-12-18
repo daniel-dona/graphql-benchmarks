@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-
 import argparse
+import json
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--ids_file", required=True, help="Input file with JSON encoded IDs")
@@ -18,7 +18,12 @@ for q in ids:
 		for v_id in e:
 			
 			print(q,e,v_id)
-			
+		
+# Descargar directorios con consultas
+# Mapear datasets a puertos
+# Ejecutar consultas sparql
+# Evaluar salida de morph
+# Sacar datos para tiempos	
 			
 
 props = '''mappingdocument.file.path='''+path_mapping+'''example1-mapping-mysql.ttl
