@@ -79,7 +79,7 @@ for q in ids:
 			
 			
 
-			print(x.group())
+			print(x.group(1).split()[0])
 
 			
 		

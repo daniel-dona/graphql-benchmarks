@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql>
+    <head>
+        <variable name="producttypeproduct"/>
+        <variable name="type"/>
+        <variable name="typeNr"/>
+        <variable name="typeLabel"/>
+        <variable name="typeComment"/>
+        <variable name="typeParent"/>
+        <variable name="parentNr"/>
+        <variable name="parentLabel"/>
+        <variable name="parentComment"/>
+    </head>
+    <results>
+        <result>
+            <binding name="producttypeproduct">
+                <uri>http://lingbm.linkeddata.es/producttypeproduct/3355/266</uri>
+            </binding>
+            <binding name="type">
+                <uri>http://lingbm.linkeddata.es/producttype/266</uri>
+            </binding>
+            <binding name="typeNr">
+                <literal>266</literal>
+            </binding>
+            <binding name="typeLabel">
+                <literal>furler</literal>
+            </binding>
+            <binding name="typeComment">
+                <literal>demarche mashes brushier diskettes contended revictuals lappets circumstantiation dynes sackfuls hemmed settlings loftiness fishhooks rascality sawteeth impetuousness sighers footrests overlying unfair copied lathing valvelets denominated tantalic subsumable bamboos sextile friary refilms soapers transforming homeopathic overelaborates dinginess kludging systematizing dispirit anomalies gormandizes</literal>
+            </binding>
+            <binding name="typeParent">
+                <uri>http://lingbm.linkeddata.es/producttype/58</uri>
+            </binding>
+            <binding name="parentNr">
+                <literal>58</literal>
+            </binding>
+            <binding name="parentLabel">
+                <literal>yardarm crashed</literal>
+            </binding>
+            <binding name="parentComment">
+                <literal>opacifying unfederated doges hermaphroditic ambulating huddler varments consonances demobilizations ombres compliantly dillydally potentiated prepayment bestirred fluidizing editorship gorses ethnical zillions infidels albanians</literal>
+            </binding>
+        </result>
+    </results>
+</sparql>

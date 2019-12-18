@@ -1,0 +1,12 @@
+[main] INFO es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBProperties - reading configuration file : ./tmp/morph.props
+[main] INFO es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunnerFactory - MorphBaseRunnerFactory running morph-rdb 3.9.14 ...
+Traceback (most recent call last):
+  File "morph-rdb-benchmark.py", line 70, in <module>
+    subprocess.call(["java", "-cp", ".:morph-rdb/morph-rdb.jar:morph-rdb/lib/*", "es.upm.fi.dia.oeg.morph.r2rml.rdb.engine.MorphRDBRunner", ".", conf])
+  File "/usr/lib/python3.5/subprocess.py", line 559, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.5/subprocess.py", line 1658, in wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.5/subprocess.py", line 1608, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
